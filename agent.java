@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class homework {
+public class agent {
     class Pair{
         int i = 0, j = 0;
         public Pair(int i, int j){
@@ -55,10 +55,10 @@ public class homework {
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
 
-        homework hw = new homework();
-        hw.getBoard();
-        hw.exec();
-        hw.printOutput();
+        agent agent = new agent();
+        agent.getBoard();
+        agent.exec();
+        agent.printOutput();
 
         long endTime = System.currentTimeMillis();
         System.out.println((endTime - startTime)+"ms");
